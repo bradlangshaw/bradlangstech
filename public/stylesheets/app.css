@@ -1,0 +1,227 @@
+#main{
+    margin-top: 100px;
+}
+.footer-col{
+background: rgba(235, 232, 232, 0.5);
+}
+#carousel{
+    margin-top: 0px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.navbar{
+    background-color: #375099 !important;
+}
+
+p{
+    font-size: 1.35rem;
+}
+
+textarea{
+    resize: none;
+}
+
+.carousel-caption{
+    bottom: 0%;
+    height: 200px;
+
+    padding: 25px;
+}
+
+.carousel-control-next{
+    z-index: 10;
+}
+
+.carousel-caption .btn-lg {
+    padding: 1rem 3rem;
+    height: 43%;
+    margin: 0 0 0 1.5rem;
+}
+
+.btn-lg{
+    padding: 1rem 3rem;
+}
+
+footer{
+    margin-top: 150px;
+}
+
+
+
+.carousel-caption::after{
+    background: linear-gradient( to right, black 80%, white);
+    content: "";
+  opacity: 0.45;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  width: 100vw;
+}
+@media only screen and (min-width: 992px) {
+
+.carousel-item{
+    height: 80vh;
+    top: 59px;
+}
+
+
+.d-grid{
+    display: inline-grid;
+}
+
+#mainLogo img{
+    margin: 0 auto;
+    /* transform: scale(.75); */
+}
+
+.navbar-brand{
+    background: royalblue;
+    top: 65px;
+    position: relative;
+    /* padding: 5px; */
+}
+
+.navbar-brand a{
+    color: #fff;
+}
+.navbar{
+    height: 60px;
+}
+
+
+.name{
+    letter-spacing: .25vw;
+    font-size: 1vw;
+    line-height: 94%;
+}
+
+.jobTitle{
+    letter-spacing: .05vw;
+    font-size: .85vw;
+    line-height: 94%;
+}
+
+
+#mainLogo{
+    text-align: center;
+    margin: 0 auto;
+    margin: 10px;
+    transform-origin: top left; 
+    transition: width 1s, height 1s, transfrom 2s linear;
+    width: 15vw;
+    height: 15vw;
+    background-image: url("../images/bradlangshaw.jpg");
+    background-position: center 160%;
+    background-size: 110%;
+
+}
+#mainLogo.shrink{
+    margin: 10px;
+    transform-origin: top left;
+    width: 12vw;
+    height: 12vw;
+}
+
+.navbar-brand a {
+    padding-top: 1vh;
+    color: #fff;
+    background: royalblue;
+    text-transform: uppercase;
+    
+}
+
+.navbar-brand a {
+    /* font-size: .8rem; */
+}
+/* #mainLogo img{
+      margin: 0 auto;
+    transform-origin: top left; 
+    transition: width 2s, transfrom 2s;
+    width: 21vw;
+}
+
+#mainLogo.shrink img{
+    margin: 0 auto;
+    transform-origin: top left; 
+    transform: width 2s;
+    width: 14vw;
+
+} */
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .navbar-brand{
+        background: royalblue;
+        top: 100px;
+        position: relative;
+        /* padding: 5px; */
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .carousel-caption h2{
+        font-size: 20px;
+    }
+
+    .carousel-caption .btn-lg {
+        padding: 1rem 3rem;
+        height: 80%;
+        margin: 0 0 0 1.5rem;
+    }
+    .carousel-caption{
+        bottom: 15%;
+        height: 100px;
+    text-align: center !important;
+        padding: 10px;
+        left: 0vw;
+            width: 95vw;
+        }
+.carousel-caption .btn-lg{
+    font-size: 14px;
+}
+    .carousel-item{
+       
+        top: 59px;
+    }
+    
+    .navbar-collapse{
+        text-align: center;
+    }
+
+    #mainLogo{
+        text-align: center;
+        margin: 0 auto;
+        margin: 10px;
+        transform-origin: top left; 
+        transition: width 0s, height 0s, transfrom 2s linear;
+        width: 25vw;
+        /* height: 10vw; */
+        background-image: url("../images/bradlangshaw.jpg");
+        background-position: center 160%;
+        background-size: 110%;
+    
+    }
+    .navbar-brand{
+        background: royalblue;
+        display:  inline !important;
+        position: relative;
+        /* padding: 5px; */
+    }
+    .navbar-brand a {
+        text-align: center;
+        padding-top: 1vh;
+        color: #fff;
+        background: royalblue;
+        text-transform: uppercase;
+        letter-spacing: .2vw;
+        font-size: 2vw;
+        line-height: 96%;
+    }
+}

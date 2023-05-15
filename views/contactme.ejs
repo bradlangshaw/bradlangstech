@@ -1,0 +1,47 @@
+<% include ./partials/header.ejs %>
+</div>
+<div id="particles-js"></div>
+<div class="container-fluid" id="main-container">
+<div class="row">
+<div class="col-12 col-md-8 offset-md-2 faded-back p-3" id="main" style="height: 700px;">
+    <h1>Contact Brad!</h1>
+    <div>
+    <p>Want to me to help build your Website?</br>Need a custom application that you can't find online?</br> Want your applications to work with an API? Let Me Know Below! </h3>
+    <form class="col-12 contactForm" action="/contactme"> 
+                        <div class="form-group col-12 ">
+                            <label for="name" class="col-sm-12 control-label">Name</label>
+                            <div class="col-sm-6">
+                            <input type="text" class="form-control" id="contactName" placeholder="Full Name" name="name"/>
+                            </div>
+                        </div>
+                        <div class="form-group col-12 ">
+                            <label for="email" class="col-sm-12 control-label">Email</label>
+                            <div class="col-sm-6">
+                            <input type="email" class="form-control" id="contactEmail" placeholder="Email address" name="email"/>
+                            </div>
+                        </div>
+                        <div class="form-group col-12 ">
+                            <label for="subject" class="col-sm-12 control-label">Subject</label>
+                            <div class="col-sm-6">
+                            <input type="text" class="form-control" id="contactSubject" placeholder="Subject" name="subject"/>
+                            </div>
+                        </div>
+                        <div class="form-group col-12 ">
+                            <label for="message" class="col-sm-12 control-label">Message</label>  
+                            <div class="col-sm-12">
+                                <textarea class="form-control" rows="3" id="contactMsg" name="message"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-6">
+                            <input type="submit" class="btn btn-primary" value="Send"/>
+                            </div>
+                       </div>
+                  
+    </form>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+<% include ./partials/footer.ejs %>

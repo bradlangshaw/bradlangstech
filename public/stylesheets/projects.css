@@ -1,0 +1,16 @@
+@media only screen and (min-width: 992px) {
+
+
+
+    .navbar-brand{
+        top: 0;
+    }
+    .navbar-brand #mainLogo{
+        width: 15vw;
+        height: auto;
+        top: 0;
+    }
+    
+    }
+    
+    

@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+  padding-top: 2vw;
+  font: 14px 'Montserrat', sans-serif;
+  background: #4C4343;
+  overflow-x: hidden;
+  letter-spacing: .001px;
+  padding-bottom: 2vw;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+article{
+  max-width: 1000px;
+  background: #fff; 
+  padding: 4% !important;
+  padding-bottom: 2% !important;
+  padding-top: 2% !important;
+  transition: opacity 1.2s linear;
+  height: 100% !important;
+  border: none;
+  opacity: 0;
+  z-index: 20;
+}
+
+.floated{
+    float: left;
+    margin: 2%;
+    margin-bottom: 0;
+}
+
+.articleParagraph{
+  font-size: 14pt;
+  margin: 2%;
+  line-height: 1.5rem;
+  color:  #4C4343;
+}
+.asideParagraph{
+  text-indent: 8%;
+  margin: 2%;
+}
+.projectParagraph{
+     overflow: hidden;
+    height: 40px;
+    line-height: 19px;
+    margin: 0px;
+ 
+}
+
+.project{
+    margin-bottom: 4%;
+    border-bottom: solid #4C4343 1px;
+}
+
+.listArticleImg{
+  margin-bottom: 10%;
+}
+
+.projectParagraph:before {
+	content:"";
+	float: left;
+	width: 5px; height: 40px;
+}
+
+.projectParagraph > *:first-child {
+	float: right;
+	width: 100%;
+	margin-left: -5px; }		
+
+.projectParagraph:after {
+	content: "\02026";  
+
+	box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+
+	float: right; position: relative;
+	top: -25px; left: 100%; 
+	width: 3em; margin-left: -3em;
+	padding-right: 5px;
+	
+	text-align: right;
+
+  
+  background-size: 100% 100%;
+  /* 512x1 image, gradient for IE9. Transparent at 0% -> white at 50% -> white at 100%.*/
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAABCAMAAACfZeZEAAAABGdBTUEAALGPC/xhBQAAAwBQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wDWRdwAAAP90Uk5TgsRjMZXhS30YrvDUP3Emow1YibnM9+ggOZxrBtpRRo94gxItwLOoX/vsHdA2yGgL8+TdKUK8VFufmHSGgAQWJNc9tk+rb5KMCA8aM0iwpWV6dwP9+fXuFerm3yMs0jDOysY8wr5FTldeoWKabgEJ8RATG+IeIdsn2NUqLjQ3OgBDumC3SbRMsVKsValZplydZpZpbJOQco2KdYeEe36BDAL8/vgHBfr2CvTyDu8R7esU6RcZ5ecc4+Af3iLcJSjZ1ivT0S/PMs3LNck4x8U7wz7Bv0G9RLtHuEq1TbJQr1OtVqqnWqRdoqBhnmSbZ5mXapRtcJGOc4t2eYiFfH9AS7qYlgAAARlJREFUKM9jqK9fEGS7VNrDI2+F/nyB1Z4Fa5UKN4TbbeLY7FW0Tatkp3jp7mj7vXzl+4yrDsYoVx+JYz7mXXNSp/a0RN25JMcLPP8umzRcTZW77tNyk63tdprzXdmO+2ZdD9MFe56Y9z3LUG96mcX02n/CW71JH6Qmf8px/cw77ZvVzB+BCj8D5vxhn/vXZh6D4uzf1rN+Cc347j79q/zUL25TPrJMfG/5LvuNZP8rixeZz/mf+vU+Vut+5NL5gPOeb/sd1dZbTs03hBuvmV5JuaRyMfk849nEM7qnEk6IHI8/qn049hB35QGHiv0yZXuMdkXtYC3ebrglcqvYxoj1muvC1nDlrzJYGbpcdHHIMo2FwYv+j3QAAOBSfkZYITwUAAAAAElFTkSuQmCC);
+  
+
+	background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);			
+	background: -o-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+	background: -ms-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+	background: linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+
+
+
+}
+
+#p7{
+  position: relative;
+  right: -70px;
+}
+
+h4{
+  font-size: 18px !important;
+  text-overflow: ellipsis;
+}
+
+aside{
+  padding: 1%;
+  overflow: hidden;
+}
+
+
+.footertransition{
+  left: -5%;
+}
+
+.articleDesc{
+  margin-left: 0px;
+}
+
+.articletransition{
+  opacity: 1;
+}
+.articleListing{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: solid 1px #4C4343;
+}
+
+.articleListing img{
+  border: solid 1px #4C4343;
+  padding: 10%;
+}
+.twitter-timeline{
+  margin: 0 !important;
+  padding-right: 10px !important;
+  position: relative;
+  left: 4px !important;
+  right: 0px;
+  z-index: 19;
+  transition: right 5s linear;
+}
+
+
+h1{
+  font-size: 2rem;
+  padding-bottom: 20px !important;
+  font-weight: bold !important;
+}
+h2 {
+  padding: 2rem !important;
+  font-weight: bold !important;
+  font-size: 35px;
+}
+.navbar-brand a{
+  position:  relative;
+  
+  font-size: 5rem;
+  color: #fff;
+  letter-spacing: -1px;
+  top: -.50vw;
+  z-index: 21;
+}
+
+.projects{
+  margin-bottom: 20px;
+}
+
+
+
+footer{ 
+  position: relative;
+  left: -500px;
+  display: inline-block;
+  background: linear-gradient(#6E0909 50%, #BC0808 50%);    
+  border-radius: 5px;
+  height: 100px;
+  padding: 55px;
+  margin-top: 30px;
+  transition: left 1.8s linear;
+  width: 95%;
+  }
+
+
+small{
+  position: relative;
+  right: -30px;
+  line-height: 50px;
+}
+.projectLabels{
+    white-space: nowrap;
+	overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+@media only screen and (min-width: 1700px) {
+  #logo{
+    top: 15vw !important;
+  }
+  .adminPanel{
+    position: relative;
+    left: 5% !important;
+    width: 20% !important;
+  }
+.userlogin{
+  width: 85% !important;
+  font-size: .75vw;
+  border-radius: 10px;
+  z-index: 25;
+  height: 3.7vw !important;
+  top: 25%;
+position: relative;
+right: -100px;
+}
+
+.nav-item{
+  min-width: 15% !important;
+}
+
+
+
+
+}
+
+
+@media only screen and (min-width: 995px) {
+  .adminPanel{
+    position: relative;
+    left: 5% !important;
+  }
+.userlogin{
+  width: 85% !important;
+  font-size: .75vw;
+  border-radius: 10px;
+  z-index: 25;
+  height: 3.7vw !important;
+  top: 25%;
+position: relative;
+right: -100px;
+}
+
+nav{
+  margin-left: 5%;
+  opacity: 0;
+  background: linear-gradient(#6E0909 50%, #BC0808 50%) !important;
+  max-height: 8.5vw;
+  position: absolute;
+  min-width: 100%;
+  z-index: 20;
+  animation: navtransition 1.5s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+  animation-delay: 0.4s;
+  border-radius: 5px;
+}
+@keyframes navtransition{
+  0%{
+    left: 105%;
+    opacity: 0;
+  }
+  100%{
+    left: 2vw;
+    opacity: 1;
+  }
+}
+
+.nav-item{
+  text-align: center;
+  }
+  /* navbar{
+    justify-content: left;
+  } */
+  .navbar-collapse{
+  right: 18%;
+  top: 2.25vw;
+  }
+  
+
+.navbar-nav{
+  position: relative;
+  right: 15.5%;
+  width: 100%;
+}
+
+.navbar-nav li:hover, ul.d-inline li a:hover {
+  color: #4C4343 !important;
+  background: #6E0909;
+}
+.navbar-nav li a:visited,  ul.d-inline li a:visisted{
+  color: #fff !important;
+
+}
+.navbar-nav li a:link, ul.d-inline li a:Link{
+  color: #fff !important;
+  }
+#logoMobile{
+  width: 0px;
+}
+
+.navbar-nav li{
+    min-width: 30%;
+    height: 4vw;
+}
+.navbar-nav li a, ul.d-inline li a{
+
+top: 1vw;
+
+}
+
+
+
+
+.navbar-brand{
+  position: relative;
+  right: 5%;
+}
+
+#logo{
+  width: 30%;
+  animation: logoshake 1.5s linear;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  animation-delay: 0.4s;
+  position: relative;
+  z-index: 10;
+  left: -25px;
+  top: 15vw;
+}
+
+@keyframes logoshake{
+  50% {transform: rotate(35deg);}
+  75% {transform: rotate(-35deg);}
+  100% {transform: rotate(0deg);}
+}
+nav *{
+  position: relative;
+}
+ul.d-inline{
+padding: 0;
+
+}
+}
+@media only screen and (max-width: 1600px) {
+ .navbar-brand a{
+   font-size: 5rem;
+ }
+ #logoMobile{
+  width: 0px;
+}
+
+.navbar-nav li{
+  margin: 0 !important;
+  padding: 0;
+  
+  font-size: 75% !important;
+}
+
+
+.navbar-nav{
+  
+  right: 10% !important;
+}
+
+#logo{
+  top: 18vw;
+}
+
+
+}
+
+
+@media only screen and (max-width: 1430px) {
+  .navbar-brand a{
+    font-size: 5rem;
+  }
+  #logoMobile{
+   width: 0px;
+ }
+ 
+ .navbar-nav li{
+   margin: 0 !important;
+   padding: 0;
+   
+   font-size: 70% !important;
+ }
+ 
+ 
+ .navbar-collapse{
+   
+   right: 20% !important;
+ }
+ 
+ #logo{
+   top: 19vw;
+ }
+ 
+ 
+ }
+
+
+ @media only screen and (max-width: 1200px) {
+  .navbar-brand a{
+    font-size: 4rem;
+  }
+  #logoMobile{
+   width: 0px;
+ }
+ 
+ .navbar-nav li{
+   margin: 0 !important;
+   padding: 0;
+   
+   font-size: 70% !important;
+ }
+ 
+ 
+ .navbar-collapse{
+   
+   right: 20% !important;
+ }
+ 
+ #logo{
+   top: 19vw;
+ }
+ 
+ 
+ }
+
+
+ @media only screen and (max-width: 995px) {
+   nav{
+     border-radius: 5px;
+   }
+  .navbar-brand a{
+    font-size: 4rem;
+  }
+  #logoMobile{
+   width: 0px;
+ }
+ 
+ .navbar-nav li{
+   margin: 0 !important;
+   padding: 0;
+   
+   font-size: 70% !important;
+ }
+ 
+ 
+
+.navbar-collapse{
+  right: 0% !important;
+  margin-top: 5%;
+
+}
+
+ .adminPanel{
+   text-align: center;
+ }
+ #logo{
+   top: 19vw;
+   width: 10%;
+ }
+
+
+.navbar-nav li:hover, ul.d-inline li a:hover {
+  color: #4C4343 !important;
+  background: #6E0909;
+}
+.navbar-nav li a:visited,  ul.d-inline li a:visisted{
+  color: #fff !important;
+
+}
+.navbar-nav li a:link, ul.d-inline li a:Link{
+  color: #fff !important;
+  }
+#logoMobile{
+  width: 0px;
+}
+
+.navbar-nav li{
+    min-width: 30%;
+    height: 4vw;
+}
+nav{
+  opacity: 0;
+  background: linear-gradient(#6E0909 50%, #BC0808 50%) !important;
+  position: absolute;
+  min-width: 100%;
+  z-index: 20;
+  animation: navtransition 1.5s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+  animation-delay: 0.4s;
+}
+@keyframes navtransition{
+  0%{
+    left: 105%;
+    opacity: 0;
+  }
+  100%{
+    left: 0;
+    opacity: 1;
+  }
+}
+.footertransition{
+  left: 0%;
+  width: 100%;
+}
+ }
+
+ @media only screen and (max-width: 785px) {
+   .navbar-brand a{
+     font-size: 3rem !important;
+ 
+    }
+
+ }
+
+ @media only screen and (max-width: 625px) {
+    
+ .navbar-nav li{
+  height: 10vw;
+
+}
+
+
+
+  .navbar-brand a{
+    font-size: 1.8rem !important;
+
+   }
+
+}
+
+@media only screen and (max-width:  420px) {
+    
+  .navbar-nav li{
+   height: 10vw;
+ 
+ }
+ 
+ 
+ 
+   .navbar-brand a{
+     font-size: 1rem !important;
+ 
+    }
+
+    .navbar-toggler{
+      font-size: 90%;
+    }
+ 
+ }

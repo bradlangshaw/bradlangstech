@@ -1,0 +1,65 @@
+#main-container{
+    position: absolute;
+    top: 0;
+}
+
+.faded-back{
+    background: rgba(245, 245, 245, .8)
+}
+
+@media only screen and (min-width: 992px) {
+
+
+
+.navbar-brand{
+    top: 0;
+}
+.navbar-brand #mainLogo{
+    width: 15vw;
+    height: auto;
+    top: 0;
+}
+
+}
+
+.floated{
+    float: left;
+}
+
+#particles-js{
+    
+    z-index: -1;
+    /* height: 100vh;  */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #fff; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: 50% 50%;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .floated{
+        float: none;
+        width: 80vw;
+    }
+
+    #particles-js{
+    
+        z-index: -1;
+       
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-color: #fff; 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: 50% 50%;
+    }
+    
+
+}

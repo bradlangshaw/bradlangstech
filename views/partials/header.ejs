@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title><%= title %></title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../stylesheets/bootstrap.min.css">
+    <link href="../stylesheets/app.css" rel="stylesheet">
+    <link href=<%= pagecss %> rel="stylesheet"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>  
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="navbar-brand">
+        <!-- <img id="logo" src="../images/logo.svg" alt="Logo"></img> -->
+        <div id="mainLogo" class="d-flex flex-column-reverse">
+       <!-- <img id="logoMobile" src="../images/bradlangshaw.jpg" alt="Logo"></img>  -->
+        <a href="/"><div class="name"><strong>Brad Langshaw</strong></div>
+        <div class="jobTitle">Software Developer</div> 
+        </a>
+      </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/Projects">Projects</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/aboutme">About Me</a></li>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contactme"x`>Contact Me</a>
+          </li>
+          <!-- <li class="nav-item">
+              <a class="nav-link" href="/articles">Articles</a>
+            </li> -->
+        </ul>
+        <ul class="navbar-nav adminPanel ml-auto d-inline">
+          <% if (user == undefined) { %>
+            <li class="nav-item userlogin"><a class="nav-link" href="/login"><i class="fa fa-user" aria-hidden="true"></i> Login</a></li>
+       <% }
+        else { %>
+            <li class="nav-item userlogin"><a class="nav-item" href="/logout">Logout</a></li>
+      <% } %>
+        </ul>
+
+      </div>
+    </nav>
+<div class="container-fluid">
